@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void menu_principal(View view){
+    public void menu_principal(){
         Intent intent = new Intent(this, menu_principal.class);
         startActivity(intent);
     }
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast=Toast.makeText(getApplicationContext(),"Usted no cuenta con un usuario",Toast.LENGTH_SHORT);
 
         toast.show();
+        menu_principal();
     }
 
     public void onClick(View v) {
