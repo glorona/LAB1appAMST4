@@ -6,8 +6,8 @@
     android:layout_height="fill_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:padding="20dip">
+    android:padding="20dip"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/edtUsuario"
@@ -29,18 +29,22 @@
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="login"
         android:paddingLeft="15dip"
         android:paddingRight="15dip"
         android:text="Login"
-        android:onClick="login"/>
+
+        app:backgroundTint="#3F51B5" />
+
 
     <Button
         android:id="@+id/btnRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="registrarse"
         android:paddingLeft="15dip"
         android:paddingRight="15dip"
         android:text="Registrarse"
-        android:onClick="registrarse"/>
+        app:backgroundTint="#3F51B5" />
 
 </LinearLayout>
