@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View v) {
         if(v.getId() == R.id.btnLogin){
-            Log.d("mensaje","ïngreso");
+            Log.d("mensaje","ingreso");
 
         }else if(v.getId() == R.id.btnRegistro) {
         }
