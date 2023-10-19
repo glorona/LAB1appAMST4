@@ -36,7 +36,7 @@ public class formulario_registro extends AppCompatActivity {
             NotificationCompat.Builder builder =
                     new NotificationCompat.Builder(this,id)
                             .setSmallIcon(R.drawable.medicalteam)
-                            .setContentTitle("Se ha registrado con exito")
+                            .setContentTitle("Registro exitoso!")
                             .setContentText("Revise su correo electronico en los proximos 2 dias")
                             .setAutoCancel(true)
                             .setPriority(NotificationCompat.PRIORITY_DEFAULT);
