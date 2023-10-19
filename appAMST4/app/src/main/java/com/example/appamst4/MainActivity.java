@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void menu_principal(View view){
+        Intent intent = new Intent(this, menu_principal.class);
+        startActivity(intent);
+    }
+
     public void login(View view) {
         Toast toast=Toast.makeText(getApplicationContext(),"Usted no cuenta con un usuario",Toast.LENGTH_SHORT);
 
